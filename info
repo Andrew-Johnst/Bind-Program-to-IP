@@ -1,0 +1,6 @@
+# Using this website as a guideline:
+# 	https://daniel-lange.com/archives/53-Binding-applications-to-a-specific-IP.html
+# This works via a LD_PRELOAD shim.
+
+# Example command:
+BIND_ADDR="192.168.0.28" LD_PRELOAD=/usr/lib/bind.so firefox (*)
